@@ -1,0 +1,21 @@
+# 1. Simple Greeting
+name = input("What is your name? ")
+print(f"Hello, {name}! Welcome to Python.")
+
+# 2. Quick Age Calculator
+age = int(input("How old are you? "))
+future_age = age + 5
+print(f"In 5 years, you will be {future_age} years old!")
+
+# 3. Mini Cafe Bill
+item = input("What would you like to order? ")
+price = float(input("Enter the price ($): "))
+quantity = int(input("How many do you want? "))
+total = price * quantity
+
+print("--- RECEIPT ---")
+print(f"{quantity} x {item} = ${total:.2f}")
+
+# 4. Multiple Inputs in One Line
+city, country = input("Enter your city and country: ").split()
+print(f"You live in {city}, which is in {country}!")
